@@ -1,0 +1,37 @@
+# Build, Release, Debug Folders etc.
+doc/
+build/
+install/
+release/
+obj/
+dist/
+trash/
+tmp/
+
+# Test results
+experiment/
+!experiment/.gitkeep
+
+# Different files from compiling and IDE settings
+*.npy
+*.npz
+*.pyc
+*.user
+*.pyproj.user
+*.egg-info/
+*.pickle
+*.mat
+**/.vs
+**/.idea
+**/__pycache__
+**/.pytest_cache
+**/.vscode
+
+# OS specific files and folders
+*~
+.DS_Store
+__MACOSX/
+*.lnk
+
+.vscode
+HaxBallEnv
